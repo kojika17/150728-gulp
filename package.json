@@ -1,0 +1,16 @@
+{
+  "name": "150728-gulp",
+  "version": "0.0.0",
+  "description": "2015/07/28 gulpハンズオン",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kojika17/150728-gulp.git"
+  },
+  "author": "Tomoki Kubo",
+  "license": "MIT",
+  "homepage": "https://github.com/kojika17/150728-gulp"
+}
