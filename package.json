@@ -4,7 +4,8 @@
   "description": "2015/07/28 gulpハンズオン",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
