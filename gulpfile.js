@@ -21,9 +21,9 @@ gulp.task('bs', function() {
 /**
  * Build
  */
-gulp.task('build:html', function() {
-  gulp.src('./assets/**/*.html')
-    .pipe(gulp.dest('./public/'))
+gulp.task('タスク名', function() {
+  gulp.src('タスクを行うファイル')
+    .pipe(gulp.dest('タスク後の出力先'))
     .pipe(browserSync.reload({ stream: true }));
 });
 
@@ -40,14 +40,14 @@ gulp.task('build:css', function() {
  */
 gulp.task('watch', function() {
   gulp.watch(
-    './assets/**/*.html', 
-    ['build:html']);
+    '監視するファイル', 
+    'タスク名');
 
   gulp.watch(
     './assets/stylus/**/*.styl', 
-    ['build:css']);
+    'build:css');
 });
 
 
 // 開発
-gulp.task('default', ['build:html', 'build:css', 'bs', 'watch']);
+gulp.task('default', ['タスク名', 'build:css', 'bs', 'watch']);
