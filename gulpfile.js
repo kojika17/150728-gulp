@@ -40,14 +40,10 @@ gulp.task('build:css', function() {
  */
 gulp.task('watch', function() {
   gulp.watch(
-    '監視するファイル', 
-    'タスク名');
-
-  gulp.watch(
     './assets/stylus/**/*.styl', 
     'build:css');
 });
 
 
 // 開発
-gulp.task('default', ['タスク名', 'build:css', 'bs', 'watch']);
+gulp.task('default', ['build:css', 'bs', 'watch']);
